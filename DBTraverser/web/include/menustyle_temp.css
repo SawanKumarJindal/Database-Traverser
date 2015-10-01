@@ -1,0 +1,96 @@
+﻿/***********/
+.menu
+{
+    border: none;
+    border: 0px;
+    margin: 0px 10px;
+    padding: 0px;
+}
+.menu a
+{
+   color: purple; 
+    
+    
+}
+.menu ul
+{
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li
+{
+    float: left;
+    padding: 0px;
+}
+.menu li a
+{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 38px;
+    margin: 0px;
+    padding: 0px 25px;
+    padding-top: 4px;
+    text-align: center;
+    color: purple;
+    text-decoration: none;
+}
+.menu li a:hover, .menu ul li:hover a
+{
+    background: #3a477a;
+    color: #fff;
+    text-decoration: none;
+}
+.menu li ul
+{
+    background: #3a477a;
+    display: none;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    width: 150px;
+    z-index: 200;
+}
+.menu li:hover ul
+{
+    display: block;
+}
+.menu li li
+{
+    border-bottom: 1px #B8D5F3 dashed;
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+}
+.menu li:hover li a
+{
+    background: none;
+}
+.menu li ul a
+{
+    display: block;
+    height: 35px;
+    margin: 0px;
+    padding: 0px 10px 0px 15px;
+    text-align: left;
+}
+.menu li ul a:hover, .menu li ul li:hover a
+{
+    /* background: #9ab5ec;*/
+    background: url(../images/menuback.png);
+    background-repeat: repeat-x;
+    background-position: center center;
+    border: 0px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*************/
